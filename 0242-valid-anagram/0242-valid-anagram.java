@@ -41,17 +41,17 @@
 
 class Solution {
     public boolean isAnagram(String s, String t) {
-        int[] ans=new int[26];
+        int[] ans=new int[200];
         if(s.length() != t.length()){
             return false;
         }
 
         for(int i=0;i<s.length();i++){
-            ans[s.charAt(i) - 'a']++;
+            ans[s.charAt(i) ]++;
         }
 
         for(int j=0;j<t.length();j++){
-            ans[t.charAt(j) - 'a']--;
+            ans[t.charAt(j)]--;
         }
 
         for(int k=0;k<ans.length;k++){
