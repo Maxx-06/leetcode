@@ -9,16 +9,15 @@ class Solution {
         // return sum;
 
 
-        // this approach using bitwise xor to eliminate duplicate and left only missing num
+        // this approach using bitwise xor to eliminate duplicate and left missing num
         int len = nums.length;
-        int res = nums[0];
-        for(int i=1; i<len; i++){
-            res = res ^ nums[i];
+        int res = 0;
+        for(int n:nums){
+            res = res ^ n;
         }
 
-        while(len>=0) {
-            res = res ^ len;
-            len--;
+        for(int i=0; i<=nums.length; i++){
+            res = res ^ i;
         }
 
         return res;
