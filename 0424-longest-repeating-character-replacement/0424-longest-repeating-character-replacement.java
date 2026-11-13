@@ -16,14 +16,14 @@ class Solution {
 
         for (int high = 0; high < n; high++) {
             int c = s.charAt(high);
-            int index = (int)c - 65;
+            int index = c - 'A';
             arr[index]++;
             int max = find(arr);
             int len = high - low + 1;
 
             while (len - max > k) {
                 int d = s.charAt(low);
-                index = (int)d - 65;
+                index = d - 'A';
                 arr[index]--;
                 low++;
                 max = find(arr);
