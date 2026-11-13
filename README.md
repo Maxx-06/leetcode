@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0238-product-of-array-except-self](https://github.com/Maxx-06/leetcode/tree/master/0238-product-of-array-except-self) |
 | [0268-missing-number](https://github.com/Maxx-06/leetcode/tree/master/0268-missing-number) |
 | [0560-subarray-sum-equals-k](https://github.com/Maxx-06/leetcode/tree/master/0560-subarray-sum-equals-k) |
+| [0904-fruit-into-baskets](https://github.com/Maxx-06/leetcode/tree/master/0904-fruit-into-baskets) |
 | [0977-squares-of-a-sorted-array](https://github.com/Maxx-06/leetcode/tree/master/0977-squares-of-a-sorted-array) |
 ## Bit Manipulation
 |  |
@@ -37,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/Maxx-06/leetcode/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/Maxx-06/leetcode/tree/master/0268-missing-number) |
 | [0560-subarray-sum-equals-k](https://github.com/Maxx-06/leetcode/tree/master/0560-subarray-sum-equals-k) |
+| [0904-fruit-into-baskets](https://github.com/Maxx-06/leetcode/tree/master/0904-fruit-into-baskets) |
 ## Sorting
 |  |
 | ------- |
@@ -109,4 +111,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/Maxx-06/leetcode/tree/master/0209-minimum-size-subarray-sum) |
+| [0904-fruit-into-baskets](https://github.com/Maxx-06/leetcode/tree/master/0904-fruit-into-baskets) |
 <!---LeetCode Topics End-->
