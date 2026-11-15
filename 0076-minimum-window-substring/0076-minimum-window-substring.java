@@ -1,6 +1,6 @@
 class Solution {
     public static boolean check(int[] s, int[] t) {
-        for (int i = 0; i < 256; i++) {
+        for (int i = 0; i < 128; i++) {
             if (s[i] < t[i]) {
                 return false;
             }
@@ -10,8 +10,8 @@ class Solution {
     }
 
     public String minWindow(String s, String t) {
-        int[] Sarr = new int[256];
-        int[] Tarr = new int[256];
+        int[] Sarr = new int[128];
+        int[] Tarr = new int[128];
 
         for (int i = 0; i < t.length(); i++) {
             char ch = t.charAt(i);
