@@ -34,7 +34,7 @@ class Solution {
 
         // return head;
 
-        if(head == null || head.next == null) return head;
+        // if(head == null || head.next == null) return head;
         ListNode p = head;
         ListNode p2 = head;
         ListNode temp = head;
