@@ -1,22 +1,45 @@
 class Solution {
+    //  sum of all char than minus
+    //  freq array 
+    // hashmap
+    // xor all char
     public char findTheDifference(String s, String t) {
-        int[] arr = new int[26];
+        // int[] arr = new int[26];
+
+        // for (int i = 0; i < t.length(); i++) {
+        //     arr[t.charAt(i) - 'a']++;
+        // }
+
+        // for (int i = 0; i < s.length(); i++) {
+        //     arr[s.charAt(i) - 'a']--;
+        // }
+
+        // for (int i = 0; i < 26; i++) {
+        //     if (arr[i] != 0) {
+        //         return (char) ('a' + i);
+        //     }
+        // }
+
+        
+        // return '\0';
+
+
+
+
+        // ---------
+
+         int sum = 0;
 
         for (int i = 0; i < t.length(); i++) {
-            arr[t.charAt(i) - 'a']++;
+            sum = sum + t.charAt(i);
         }
 
         for (int i = 0; i < s.length(); i++) {
-            arr[s.charAt(i) - 'a']--;
+            sum = sum - s.charAt(i);
         }
 
-        for (int i = 0; i < 26; i++) {
-            if (arr[i] != 0) {
-                return (char) ('a' + i);
-            }
-        }
 
         
-        return '\0';
+        return sum == 0 ? '\0': (char)sum;
     }
 }
