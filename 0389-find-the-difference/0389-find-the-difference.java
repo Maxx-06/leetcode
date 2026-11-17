@@ -27,19 +27,33 @@ class Solution {
 
 
         // ---------
+        // sum - minus
+        //  int sum = 0;
 
-         int sum = 0;
+        // for (int i = 0; i < t.length(); i++) {
+        //     sum = sum + t.charAt(i);
+        // }
 
-        for (int i = 0; i < t.length(); i++) {
-            sum = sum + t.charAt(i);
-        }
-
-        for (int i = 0; i < s.length(); i++) {
-            sum = sum - s.charAt(i);
-        }
+        // for (int i = 0; i < s.length(); i++) {
+        //     sum = sum - s.charAt(i);
+        // }
 
 
         
-        return sum == 0 ? '\0': (char)sum;
+        // return sum == 0 ? '\0': (char)sum;
+
+
+        // -------------
+        // XOR
+
+        int sum = t.charAt(0);
+        for (int i = 1; i < t.length(); i++) {
+            sum = sum ^ t.charAt(i);
+        }
+
+        for (int i = 0; i < s.length(); i++) {
+            sum = sum ^ s.charAt(i);
+        }
+        return (char)sum;
     }
 }
