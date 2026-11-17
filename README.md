@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0136-single-number](https://github.com/Maxx-06/leetcode/tree/master/0136-single-number) |
 | [0268-missing-number](https://github.com/Maxx-06/leetcode/tree/master/0268-missing-number) |
+| [0389-find-the-difference](https://github.com/Maxx-06/leetcode/tree/master/0389-find-the-difference) |
 ## Hash Table
 |  |
 | ------- |
@@ -40,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/Maxx-06/leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Maxx-06/leetcode/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/Maxx-06/leetcode/tree/master/0268-missing-number) |
+| [0389-find-the-difference](https://github.com/Maxx-06/leetcode/tree/master/0389-find-the-difference) |
 | [0424-longest-repeating-character-replacement](https://github.com/Maxx-06/leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0560-subarray-sum-equals-k](https://github.com/Maxx-06/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0904-fruit-into-baskets](https://github.com/Maxx-06/leetcode/tree/master/0904-fruit-into-baskets) |
@@ -53,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/Maxx-06/leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Maxx-06/leetcode/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/Maxx-06/leetcode/tree/master/0268-missing-number) |
+| [0389-find-the-difference](https://github.com/Maxx-06/leetcode/tree/master/0389-find-the-difference) |
 | [0977-squares-of-a-sorted-array](https://github.com/Maxx-06/leetcode/tree/master/0977-squares-of-a-sorted-array) |
 ## String
 |  |
@@ -63,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/Maxx-06/leetcode/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/Maxx-06/leetcode/tree/master/0076-minimum-window-substring) |
 | [0242-valid-anagram](https://github.com/Maxx-06/leetcode/tree/master/0242-valid-anagram) |
+| [0389-find-the-difference](https://github.com/Maxx-06/leetcode/tree/master/0389-find-the-difference) |
 | [0424-longest-repeating-character-replacement](https://github.com/Maxx-06/leetcode/tree/master/0424-longest-repeating-character-replacement) |
 ## Divide and Conquer
 |  |
