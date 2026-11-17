@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/Maxx-06/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0904-fruit-into-baskets](https://github.com/Maxx-06/leetcode/tree/master/0904-fruit-into-baskets) |
 | [0977-squares-of-a-sorted-array](https://github.com/Maxx-06/leetcode/tree/master/0977-squares-of-a-sorted-array) |
+| [1160-find-words-that-can-be-formed-by-characters](https://github.com/Maxx-06/leetcode/tree/master/1160-find-words-that-can-be-formed-by-characters) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -45,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/Maxx-06/leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0560-subarray-sum-equals-k](https://github.com/Maxx-06/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0904-fruit-into-baskets](https://github.com/Maxx-06/leetcode/tree/master/0904-fruit-into-baskets) |
+| [1160-find-words-that-can-be-formed-by-characters](https://github.com/Maxx-06/leetcode/tree/master/1160-find-words-that-can-be-formed-by-characters) |
 ## Sorting
 |  |
 | ------- |
@@ -68,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/Maxx-06/leetcode/tree/master/0242-valid-anagram) |
 | [0389-find-the-difference](https://github.com/Maxx-06/leetcode/tree/master/0389-find-the-difference) |
 | [0424-longest-repeating-character-replacement](https://github.com/Maxx-06/leetcode/tree/master/0424-longest-repeating-character-replacement) |
+| [1160-find-words-that-can-be-formed-by-characters](https://github.com/Maxx-06/leetcode/tree/master/1160-find-words-that-can-be-formed-by-characters) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -136,4 +139,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0160-intersection-of-two-linked-lists](https://github.com/Maxx-06/leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0237-delete-node-in-a-linked-list](https://github.com/Maxx-06/leetcode/tree/master/0237-delete-node-in-a-linked-list) |
 | [1721-swapping-nodes-in-a-linked-list](https://github.com/Maxx-06/leetcode/tree/master/1721-swapping-nodes-in-a-linked-list) |
+## Counting
+|  |
+| ------- |
+| [1160-find-words-that-can-be-formed-by-characters](https://github.com/Maxx-06/leetcode/tree/master/1160-find-words-that-can-be-formed-by-characters) |
 <!---LeetCode Topics End-->
