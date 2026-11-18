@@ -13,31 +13,50 @@ class Solution {
         // }
 
         // return -1;
-        int len = nums.length;
-        int slow = 0;
+        // int len = nums.length;
+        // int slow = 0;
+        // int fast = 0;
+        // boolean meet = false;
+        // while (fast < len && nums[fast] < len)
+        //  {
+        //     slow = nums[slow];
+        //     fast = nums[nums[fast]];
+        //     if(fast == slow){
+        //         meet = true;
+        //         break;
+        //     };
+        // }
+
+
+        // if(meet) {
+        //     int ptr = 0;
+        //     while(ptr != slow){
+        //         ptr = nums[ptr];
+        //         slow = nums[slow];
+        //     }
+        //     return ptr;
+        // }
+
+        // return -1;
+
+         int slow = 0;
         int fast = 0;
-        boolean meet = false;
-        while (fast < len && nums[fast] < len)
-         {
+
+        // Phase 1: Find intersection
+        do {
             slow = nums[slow];
             fast = nums[nums[fast]];
-            if(fast == slow){
-                meet = true;
-                break;
-            };
+        } while (slow != fast);
+
+        // Phase 2: Find cycle entrance
+        int ptr = 0;
+
+        while (ptr != slow) {
+            ptr = nums[ptr];
+            slow = nums[slow];
         }
 
-
-        if(meet) {
-            int ptr = 0;
-            while(ptr != slow){
-                ptr = nums[ptr];
-                slow = nums[slow];
-            }
-            return ptr;
-        }
-
-        return -1;
+        return ptr;
 
     }
 }
