@@ -1,15 +1,43 @@
 
 class Solution {
     public int findDuplicate(int[] nums) {
-        int[] copy = new int[nums.length];
 
-        for (int num : nums) {
-            if (copy[num] > 0) {
-                return num;
+        // first solution using extra space
+        // int[] copy = new int[nums.length];
+
+        // for (int num : nums) {
+        //     if (copy[num] > 0) {
+        //         return num;
+        //     }
+        //     copy[num]++;
+        // }
+
+        // return -1;
+        int len = nums.length;
+        int slow = 0;
+        int fast = 0;
+        boolean meet = false;
+        while (fast < len && nums[fast] < len)
+         {
+            slow = nums[slow];
+            fast = nums[nums[fast]];
+            if(fast == slow){
+                meet = true;
+                break;
+            };
+        }
+
+
+        if(meet) {
+            int ptr = 0;
+            while(ptr != slow){
+                ptr = nums[ptr];
+                slow = nums[slow];
             }
-            copy[num]++;
+            return ptr;
         }
 
         return -1;
+
     }
 }
