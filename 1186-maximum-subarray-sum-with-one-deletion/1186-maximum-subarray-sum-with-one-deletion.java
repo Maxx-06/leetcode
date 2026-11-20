@@ -1,7 +1,7 @@
 class Solution {
     public int maximumSum(int[] arr) {
         int no_del = arr[0];
-        int with_del = arr[0];
+        int with_del = -20000000;
         int max = arr[0];
 
         for(int i = 1; i < arr.length; i++) {
