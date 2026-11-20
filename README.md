@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0977-squares-of-a-sorted-array](https://github.com/Maxx-06/leetcode/tree/master/0977-squares-of-a-sorted-array) |
 | [1160-find-words-that-can-be-formed-by-characters](https://github.com/Maxx-06/leetcode/tree/master/1160-find-words-that-can-be-formed-by-characters) |
 | [1186-maximum-subarray-sum-with-one-deletion](https://github.com/Maxx-06/leetcode/tree/master/1186-maximum-subarray-sum-with-one-deletion) |
+| [1749-maximum-absolute-sum-of-any-subarray](https://github.com/Maxx-06/leetcode/tree/master/1749-maximum-absolute-sum-of-any-subarray) |
 | [2016-maximum-difference-between-increasing-elements](https://github.com/Maxx-06/leetcode/tree/master/2016-maximum-difference-between-increasing-elements) |
 ## Bit Manipulation
 |  |
@@ -90,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Maxx-06/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0152-maximum-product-subarray](https://github.com/Maxx-06/leetcode/tree/master/0152-maximum-product-subarray) |
 | [1186-maximum-subarray-sum-with-one-deletion](https://github.com/Maxx-06/leetcode/tree/master/1186-maximum-subarray-sum-with-one-deletion) |
+| [1749-maximum-absolute-sum-of-any-subarray](https://github.com/Maxx-06/leetcode/tree/master/1749-maximum-absolute-sum-of-any-subarray) |
 ## Two Pointers
 |  |
 | ------- |
