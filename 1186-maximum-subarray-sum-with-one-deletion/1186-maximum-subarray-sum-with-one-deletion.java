@@ -4,8 +4,9 @@ class Solution {
         int with_del = arr[0];
         int max = arr[0];
 
-        for(int i = 1; i < arr.length; i++) {
+        for (int i = 1; i < arr.length; i++) {
             int temp_no_del = Math.max(no_del + arr[i], arr[i]);
+
             with_del = Math.max(with_del + arr[i], no_del);
 
             no_del = temp_no_del;
