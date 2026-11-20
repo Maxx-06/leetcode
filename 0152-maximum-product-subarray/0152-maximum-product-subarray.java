@@ -5,12 +5,11 @@ class Solution {
         int prev = nums[0];
 
         for(int i = 1; i < nums.length; i++) {
-            int v = nums[i];
             int v2 = best * nums[i];
-            int v3 = nums[i] * prev;
-            best = Math.max(v, Math.max(v2,v3));
-            prev = Math.min(v, Math.min(v2,v3));
-            ans = Math.max(ans, Math.max(best,prev));
+            int v3 = prev * nums[i];
+            best = Math.max( nums[i] , Math.max( v2,v3 ));
+            prev = Math.min( nums[i] , Math.min( v2,v3 ));
+            ans = Math.max( ans, Math.max( best, prev ));
         }
 
         return ans;
