@@ -6,14 +6,14 @@ class Solution {
             sum += nums[i];
             nums[i] = sum;
         }
-        sum = 0;
+        int leftSum = 0;
         int n = nums.length;
 
         for(int i=0; i < n ; i++) {
-            if(nums[n-1] - nums[i] == sum) {
+            if(nums[n-1] - nums[i] == leftSum) {
                 return i;
             } 
-            sum = nums[i];
+            leftSum = nums[i];
         }
 
         return -1;
