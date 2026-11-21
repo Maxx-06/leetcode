@@ -10,7 +10,7 @@ class Solution {
         int n = nums.length;
 
         for(int i=0; i < n ; i++) {
-            if(nums[n-1] - nums[i] == leftSum) {
+            if(sum - nums[i] == leftSum) {
                 return i;
             } 
             leftSum = nums[i];
