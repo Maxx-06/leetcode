@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0724-find-pivot-index](https://github.com/Maxx-06/leetcode/tree/master/0724-find-pivot-index) |
 | [0904-fruit-into-baskets](https://github.com/Maxx-06/leetcode/tree/master/0904-fruit-into-baskets) |
 | [0918-maximum-sum-circular-subarray](https://github.com/Maxx-06/leetcode/tree/master/0918-maximum-sum-circular-subarray) |
+| [0974-subarray-sums-divisible-by-k](https://github.com/Maxx-06/leetcode/tree/master/0974-subarray-sums-divisible-by-k) |
 | [0977-squares-of-a-sorted-array](https://github.com/Maxx-06/leetcode/tree/master/0977-squares-of-a-sorted-array) |
 | [1160-find-words-that-can-be-formed-by-characters](https://github.com/Maxx-06/leetcode/tree/master/1160-find-words-that-can-be-formed-by-characters) |
 | [1186-maximum-subarray-sum-with-one-deletion](https://github.com/Maxx-06/leetcode/tree/master/1186-maximum-subarray-sum-with-one-deletion) |
@@ -61,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/Maxx-06/leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0560-subarray-sum-equals-k](https://github.com/Maxx-06/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0904-fruit-into-baskets](https://github.com/Maxx-06/leetcode/tree/master/0904-fruit-into-baskets) |
+| [0974-subarray-sums-divisible-by-k](https://github.com/Maxx-06/leetcode/tree/master/0974-subarray-sums-divisible-by-k) |
 | [1160-find-words-that-can-be-formed-by-characters](https://github.com/Maxx-06/leetcode/tree/master/1160-find-words-that-can-be-formed-by-characters) |
 ## Sorting
 |  |
@@ -126,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0303-range-sum-query-immutable](https://github.com/Maxx-06/leetcode/tree/master/0303-range-sum-query-immutable) |
 | [0560-subarray-sum-equals-k](https://github.com/Maxx-06/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0724-find-pivot-index](https://github.com/Maxx-06/leetcode/tree/master/0724-find-pivot-index) |
+| [0974-subarray-sums-divisible-by-k](https://github.com/Maxx-06/leetcode/tree/master/0974-subarray-sums-divisible-by-k) |
 | [1480-running-sum-of-1d-array](https://github.com/Maxx-06/leetcode/tree/master/1480-running-sum-of-1d-array) |
 ## Trie
 |  |
