@@ -5,7 +5,8 @@ class Solution {
 
         do{
             slow = squareDigits(slow);
-            fast = squareDigits(squareDigits(fast));
+            fast = squareDigits(fast);
+            fast = squareDigits(fast);
 
         } while(slow!=fast);
 
