@@ -146,6 +146,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/Maxx-06/leetcode/tree/master/0013-roman-to-integer) |
 | [0202-happy-number](https://github.com/Maxx-06/leetcode/tree/master/0202-happy-number) |
 | [0268-missing-number](https://github.com/Maxx-06/leetcode/tree/master/0268-missing-number) |
+| [1492-the-kth-factor-of-n](https://github.com/Maxx-06/leetcode/tree/master/1492-the-kth-factor-of-n) |
 | [2427-number-of-common-factors](https://github.com/Maxx-06/leetcode/tree/master/2427-number-of-common-factors) |
 ## Binary Search
 |  |
@@ -214,6 +215,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Number Theory
 |  |
 | ------- |
+| [1492-the-kth-factor-of-n](https://github.com/Maxx-06/leetcode/tree/master/1492-the-kth-factor-of-n) |
 | [2427-number-of-common-factors](https://github.com/Maxx-06/leetcode/tree/master/2427-number-of-common-factors) |
 ## Euclidean Algorithm
 |  |
@@ -223,4 +225,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2427-number-of-common-factors](https://github.com/Maxx-06/leetcode/tree/master/2427-number-of-common-factors) |
+## Prime Factorization
+|  |
+| ------- |
+| [1492-the-kth-factor-of-n](https://github.com/Maxx-06/leetcode/tree/master/1492-the-kth-factor-of-n) |
 <!---LeetCode Topics End-->
