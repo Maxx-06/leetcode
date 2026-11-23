@@ -7,12 +7,12 @@ class Solution {
         for (int i = 1; i <= (int) Math.sqrt(n); i++) {
             if (n % i == 0) {
 
-                if (i * i == n) {
-                    smaller.add(i);
-                } else {
-                    smaller.add(i);
+                smaller.add(i);
+
+                if (i != n/i) {
                     larger.add(n / i);
                 }
+
             }
 
         }
