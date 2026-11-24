@@ -72,6 +72,7 @@ class Solution {
             result.add(intervals[i]);
             i++;
         }
+        
         return result.toArray(new int[result.size()][]);
     }
 }
