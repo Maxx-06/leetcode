@@ -149,6 +149,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/Maxx-06/leetcode/tree/master/0268-missing-number) |
 | [1492-the-kth-factor-of-n](https://github.com/Maxx-06/leetcode/tree/master/1492-the-kth-factor-of-n) |
 | [2427-number-of-common-factors](https://github.com/Maxx-06/leetcode/tree/master/2427-number-of-common-factors) |
+| [3360-stone-removal-game](https://github.com/Maxx-06/leetcode/tree/master/3360-stone-removal-game) |
 ## Binary Search
 |  |
 | ------- |
@@ -230,4 +231,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1492-the-kth-factor-of-n](https://github.com/Maxx-06/leetcode/tree/master/1492-the-kth-factor-of-n) |
+## Simulation
+|  |
+| ------- |
+| [3360-stone-removal-game](https://github.com/Maxx-06/leetcode/tree/master/3360-stone-removal-game) |
 <!---LeetCode Topics End-->
