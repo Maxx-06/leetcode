@@ -1,22 +1,38 @@
 class Solution {
     public String removeDuplicates(String s) {
-        Stack<Character> stack = new Stack<>();
+        // Stack<Character> stack = new Stack<>();
 
-        for (char ch : s.toCharArray()) {
-            if (stack.isEmpty() || ch != stack.peek()) {
-                stack.push(ch);
+        // for (char ch : s.toCharArray()) {
+        //     if (stack.isEmpty() || ch != stack.peek()) {
+        //         stack.push(ch);
+        //     } else {
+        //         stack.pop();
+        //     }
+        // }
+
+        // StringBuilder result = new StringBuilder();
+
+        // for (char ch : stack) {
+        //     result.append(ch);
+        // }
+
+        // return result.toString();
+
+        char[] stack = new char[s.length()];
+        int top = -1;
+
+        for(char ch : s.toCharArray()) {
+            if(top == -1 || ch != stack[top]) {
+                stack[++top] = ch;
             } else {
-                stack.pop();
+                top--;
             }
         }
 
-        StringBuilder result = new StringBuilder();
-
-        for (char ch : stack) {
-            result.append(ch);
-        }
-
-        return result.toString();
+        return new String(stack, 0, top + 1);
 
     }
 }
+
+// 92 space 
+// 58 time
