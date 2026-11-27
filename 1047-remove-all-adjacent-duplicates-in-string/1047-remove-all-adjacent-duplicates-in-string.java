@@ -18,11 +18,14 @@ class Solution {
 
         // return result.toString();
 
+        // 92 space 
+        // 58 time
+
         char[] stack = new char[s.length()];
         int top = -1;
 
-        for(char ch : s.toCharArray()) {
-            if(top == -1 || ch != stack[top]) {
+        for (char ch : s.toCharArray()) {
+            if (top == -1 || ch != stack[top]) {
                 stack[++top] = ch;
             } else {
                 top--;
@@ -33,6 +36,3 @@ class Solution {
 
     }
 }
-
-// 92 space 
-// 58 time
