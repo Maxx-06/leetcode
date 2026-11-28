@@ -65,7 +65,7 @@ class Solution {
             }
 
             // Find next greater element
-            if (!stack.isEmpty() && i < n) {
+            if (!stack.isEmpty() ) {
                 result[index] = stack.peek();
             }
 
