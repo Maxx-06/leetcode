@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/Maxx-06/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0303-range-sum-query-immutable](https://github.com/Maxx-06/leetcode/tree/master/0303-range-sum-query-immutable) |
 | [0496-next-greater-element-i](https://github.com/Maxx-06/leetcode/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/Maxx-06/leetcode/tree/master/0503-next-greater-element-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/Maxx-06/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0724-find-pivot-index](https://github.com/Maxx-06/leetcode/tree/master/0724-find-pivot-index) |
 | [0904-fruit-into-baskets](https://github.com/Maxx-06/leetcode/tree/master/0904-fruit-into-baskets) |
@@ -145,6 +146,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/Maxx-06/leetcode/tree/master/0020-valid-parentheses) |
 | [0496-next-greater-element-i](https://github.com/Maxx-06/leetcode/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/Maxx-06/leetcode/tree/master/0503-next-greater-element-ii) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Maxx-06/leetcode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 ## Math
 |  |
@@ -254,4 +256,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0496-next-greater-element-i](https://github.com/Maxx-06/leetcode/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/Maxx-06/leetcode/tree/master/0503-next-greater-element-ii) |
 <!---LeetCode Topics End-->
