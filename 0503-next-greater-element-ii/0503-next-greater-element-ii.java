@@ -65,10 +65,9 @@ class Solution {
             }
 
             // Find next greater element
-            // if (!stack.isEmpty() ) {
-            //     result[index] = stack.peek();
-            // }
-            result[index] = stack.size() == 0 ? -1 : stack.peek();
+            if (!stack.isEmpty() ) {
+                result[index] = stack.peek();
+            }
 
             // Push current element
             stack.push(nums[index]);
